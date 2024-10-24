@@ -97,7 +97,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - (2023~) Installed and managed ELK stack for collecting all internal services
           - Unified log format and guide for internal deployments
-          - Improved logging architecture in kubernetes deployments
+          - Improved logging services with the use of logging agents
   
   - title: Stack # Title for the section
     layout: list # Type of content section (list/text)
@@ -109,7 +109,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - gitlab-ci, argocd
           - <mark>AWS</mark> Elasticache, RDS, S3, EKS, Opensearch, EC2
-          - MySQL, Elasticsearch
+          - redis, mysql, ELK stack
           - docker, kubernetes, helm
           - nginx
           - locust
@@ -117,12 +117,9 @@ content:
 
       - layout: left
         title: Backend
-        # link: github.com/sproogen
-        # link_text: Project Website
         description: | # this will include new lines to allow paragraphs
           - golang, python
           - golang echo, fastapi
-          - redis, mysql, elasticsearch
           - vscode, nvim
 
   - title: Education # Title for the section
